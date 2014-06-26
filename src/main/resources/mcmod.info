@@ -1,0 +1,17 @@
+[
+ {
+  "authors": [
+   "nightshadow404"
+  ], 
+  "dependencies": [], 
+  "description": "A military designed mod with other possibly useful tidbits",
+  "mcversion": "1.7.2",
+  "modid": "N404Cannoneer",
+  "name": "nightshadow404's Cannoneer",
+  "parent": "", 
+  "screenshots": [], 
+  "updateUrl": "", 
+  "url": "", 
+  "version": "0.1a"
+ }
+]
