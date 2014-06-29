@@ -6,6 +6,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import nightshadow404.Cannoneer.configuration.configHandler;
 import nightshadow404.Cannoneer.proxy.IProxy;
 import nightshadow404.Cannoneer.reference.reference;
 
@@ -24,7 +25,7 @@ public class Cannoneer {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent pre)
     {
-
+        configHandler.init(pre.getSuggestedConfigurationFile());
     }
 
     @Mod.EventHandler
