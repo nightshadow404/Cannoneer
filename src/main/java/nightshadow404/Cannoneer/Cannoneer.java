@@ -6,12 +6,12 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import nightshadow404.Cannoneer.configuration.configHandler;
+import nightshadow404.Cannoneer.handler.configHandler;
 import nightshadow404.Cannoneer.proxy.IProxy;
 import nightshadow404.Cannoneer.reference.reference;
 
 
-@Mod(modid = reference.Mod_ID, name = reference.Mod_NAME, version = reference.Mod_VERSION)
+@Mod(modid = reference.Mod_ID, name = reference.Mod_NAME, version = reference.Mod_VERSION, guiFactory = reference.GUI_Factory_Class)
 
 
 public class Cannoneer {
