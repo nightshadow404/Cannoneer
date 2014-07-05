@@ -14,11 +14,11 @@ public class CannoneerGUIConfig extends GuiConfig
     public CannoneerGUIConfig(GuiScreen guiScreen)
     {
         super(guiScreen,
-                new ConfigElement(configHandler.configuration.getCategory(Configuration.CATEGORY_GENERAL)).getChildElements(),
-                reference.Mod_ID,
-                false,
-                false,
-                GuiConfig.getAbridgedConfigPath(configHandler.configuration.toString()));
+        new ConfigElement(configHandler.configuration.getCategory(Configuration.CATEGORY_GENERAL)).getChildElements(),
+        reference.Mod_ID,
+        false,
+        false,
+        GuiConfig.getAbridgedConfigPath(configHandler.configuration.toString()));
     }
 }
 

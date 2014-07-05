@@ -41,6 +41,9 @@ public class configHandler {
     public void onConfigurationChangedEvent (ConfigChangedEvent.OnConfigChangedEvent event)
     {
         if(event.modID.equalsIgnoreCase(reference.Mod_ID));
+        {
+            loadConfiguration();
+        }
     }
 
 

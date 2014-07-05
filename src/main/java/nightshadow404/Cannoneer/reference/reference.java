@@ -9,4 +9,5 @@ public class reference {
     public static final String Server_Proxy = "nightshadow404.Cannoneer.proxy.serverProxy";
     public static final String Client_Proxy = "nightshadow404.Cannoneer.proxy.clientProxy";
     public static final String GUI_Factory_Class = "nightshadow404.Cannoneer.client.GUI.GUIFactory";
+    public static final String Current_User = System.getProperty("user.name");
 }
